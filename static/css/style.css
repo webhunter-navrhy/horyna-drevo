@@ -105,3 +105,12 @@ h2 { font-size: var(--step-3); margin-bottom: 1.2rem; max-width: 22ch; }
 @media (min-width: 56rem) { .pribeh-grid { grid-template-columns: 1fr 1fr; gap: 4rem; } }
 .pribeh-foto { margin: 0; } .pribeh-foto img { width: 100%; aspect-ratio: 4/5; object-fit: cover; border-radius: 2px; }
 @media (min-width: 60rem) { .hero h1 { font-size: clamp(2.3rem, 3.5vw, 3.5rem); } .hero-text { width: 44%; } }
+.schema svg { overflow: visible; }
+.model-foto { grid-template-columns: 2fr 1fr; align-items: end; }
+.model-foto img:first-child { aspect-ratio: 4/5; }
+.model-foto img:last-child { aspect-ratio: 3/4; }
+.kontakt-r a, .paticka a { display: inline-block; padding: .85rem 0; }
+.logo { display: inline-flex; align-items: center; min-height: 44px; }
+.skip:focus { min-height: 44px; }
+@media (min-width: 56rem) { .kuchyne .wrap { align-items: center; row-gap: 0; padding-block: 0; } .kuchyne .cislo { margin-bottom: .6rem; } }
+.kuchyne { padding-block: clamp(2.5rem, 5vw, 4.5rem); }

@@ -1,17 +1,19 @@
 {
-  "znamka": 7,
+  "znamka": 8,
   "slabiny": [
-    "Hero na PC (1440): postel je malá fotka v rámečku vpravo, kolem jsou prázdné kruhy a pod CTA zbývá asi 100 px prázdného béžového pruhu. Je to stejná slabina, kvůli které neprošla Rezidence Metelka v1. Oprava: fotku postele z trámů roztáhnout přes celou pravou polovinu až k okraji obrazovky na celou výšku hero, letokruhy dát za ni jako jemné pozadí. V h1 zrušit ochrovou kurzívu u „celého dřeva“, to je zakázaný vzor. Nadpis nechat jedním řezem a zvýraznit jen barvou nebo nijak.",
-    "Štítky sekcí „1 · ŘEZ“, „2 · KUCHYNĚ“, „3 · POSTELE“, „4 · PŘÍBĚH“, „5 · POPTÁVKA“ jsou číslování sekcí (zakázaný vzor) a spolu s kurzívou dávají dva šablonové prvky. Čísla odstranit, kroužek-letokruh nechat jen jako drobný ornament u nadpisu. Tmavý blok Kuchyně je jen text a tři řádky výhod a působí prázdně, protože kuchyň klient k focení nemá. Doplnit vlevo nebo vpravo jednoduchou ochrovou perokresbu korpusu skříňky s popisky „bok z masivu“, „záda z masivu“, „dvířka“. Je to pravdivé, nesouvisí s fotkami a navazuje na sekci Řez.",
-    "Příběh (PC buňky 6–7): úzký centrovaný sloupec textu na plné béžové ploše, bez fotky, se zhruba 150 px prázdna pod textem, takže před formulářem stojí plochá textová stěna. Oprava: přidat vedle textu velký výřez detailu trámu nebo prasklin starého dřeva z klientových fotek (cell 6, první fotka), zarovnat text vlevo vedle něj a zmenšit spodní padding. Řádek tří fotek nad Příběhem buď zrušit, nebo ho udělat jako galerii s popisky, protože teď opakuje záběry z modelů. Na mobilu zvětšit dotykové cíle: „Poptávka“ v hlavičce (37 px) a „Proč celé dřevo ↓“ (27 px) dát na ≥ 44 px."
+    "Kuchyně (PC buňka 3, mobil buňka 4): popisek perokresby vpravo je useknutý okrajem SVG („bok z ma… (ne z tříš…“). Zvětšit viewBox nebo dát `overflow: visible`, případně popisek zkrátit na „bok z masivu“ a dát ho vlevo od korpusu. Na PC je navíc mezi štítkem KUCHYNĚ a h2 asi 90 px prázdné tmavé plochy a kresba visí výš než text. Kresbu zarovnat svisle k h2 a seznamu výhod a zmenšit horní padding.",
+    "Postele (PC buňky 4–5): fotky obou modelů jsou malé dvojice (asi 150–230 px široké) vedle velkých prázdných ploch, takže postel z masivu skoro zaniká. U každého modelu dát jednu fotku velkou (asi polovina šířky obsahu, se zvětšením nejvýš 1,3×) a druhou jako menší detail pod ni nebo vedle ní.",
+    "Mobil (kontakt nad formulářem, buňka 8, a hlavička): odkaz info@horyna.cz má dotykovou plochu jen 16 px a logo 36 px. Odkazu přidat padding nebo ho udělat jako tlačítko na ≥ 44 px a zvětšit i klikací plochu loga."
   ],
-  "zavazne": [],
+  "zavazne": [
+    "Sekce Kuchyně, perokresba korpusu (PC i mobil): popisek „bok z masivu (ne z třísek)“ je useknutý okrajem obrázku a čte se jako „bok z ma (ne z tříš“. Je to rozbitý text na viditelném místě a před odesláním se musí opravit (viewBox, overflow nebo kratší popisek)."
+  ],
   "silne": [
-    "Brand sedí: logo HORYNA s ochrovým čtvercem je vlevo v hlavičce, paleta je černá, ochra a teplá béžová přesně z loga.",
-    "Sekce „Rozdíl uvidíte na hraně desky“ srovnává dřevotřísku a masivní dub. Je to konkrétní a prodejní nápad, který vysvětluje hlavní argument klienta (zdravý nábytek pro maminky) lépe než jakýkoli slogan.",
-    "Texty vycházejí z briefu bez vymyšlených čísel, recenzí a ocenění. Tón je osobní („Raději dvě kuchyně pořádně než dvacet narychlo“), příběh místo katalogu, jak klient chtěl.",
-    "Fotky postelí jsou klientovy, nejsou roztažené a mřížka je dobře ořezává. Mobil nepřetéká, pořadí obsahu je logické a formulář je jasný a úplný."
+    "Všechny výtky z minulého kola jsou opravené. Hero má fotku postele z trámů přes celou pravou polovinu až k okraji, letokruhy jsou jen v pozadí a h1 je jedním řezem bez kurzívy. Štítky sekcí už nemají čísla. Příběh má velký detail trámu a text vlevo. Řádek opakovaných fotek zmizel.",
+    "Silný oborový koncept „Rozdíl uvidíte na hraně desky“: srovnání hrany dřevotřísky a masivu je přesvědčivé, pravdivé a navazuje na něj perokresba korpusu v Kuchyni.",
+    "Brand klienta drží: logo HORYNA s ochrovým čtvercem je vlevo v hlavičce, paleta je černá s ochrou, fotky jsou jen klientovy a s malými starými fotkami web pracuje rozumně (velký ořez v hero i v Příběhu).",
+    "Jasná konverze: v hero je CTA „Chci kuchyň nebo postel“, poptávkový formulář je jednoduchý, adresa a e-mail jsou nad ním. Nic nepřetéká na žádné ze 6 šířek."
   ],
-  "verdikt": "Poctivý obsahový návrh se silným nápadem v sekci srovnání hran a se správným brandem, ale hero s malou fotkou v rámečku, číslované štítky s kurzívou a textové bloky Kuchyně a Příběh bez obrazu z něj dělají opatrný béžový editorial, jaký Rafael už odmítl. Opravit tři body výše a pak poslat.",
-  "_hash": "52abcfde40298eb8197f2ad40b81e0ae03c2acb5"
+  "verdikt": "Opravené kolo vyřešilo hero, číslování, prázdnou Kuchyni i Příběh. Web má koncept z oboru a drží brand klienta. Odeslat až po opravě useknutého popisku v perokresbě Kuchyně.",
+  "_hash": "df6dafebabaf7a51a8678b4f9786d81d8a7d7047"
 }
