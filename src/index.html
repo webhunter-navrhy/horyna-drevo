@@ -1,0 +1,122 @@
+{% extends "_base.html" %}
+{% set titulek = 'Celodřevěné kuchyně a postele z masivu na zakázku – HORYNA, Pardubice' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <svg class="kruhy" viewBox="0 0 600 600" aria-hidden="true" focusable="false">
+    <g fill="none" stroke="currentColor" stroke-width="1.2">
+      <circle cx="300" cy="300" r="20"/><circle cx="300" cy="300" r="52"/><circle cx="300" cy="300" r="92"/>
+      <circle cx="300" cy="300" r="128"/><circle cx="300" cy="300" r="176"/><circle cx="300" cy="300" r="214"/>
+      <circle cx="300" cy="300" r="262"/><circle cx="300" cy="300" r="296"/>
+    </g>
+  </svg>
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="stitek">Truhlářství Horyna · Pardubice</p>
+      <h1>Nábytek z <em>celého dřeva</em> pro domov, ve kterém rostou děti.</h1>
+      <p class="uvod">Kuchyně a postele z masivu. Žádná dřevotříska, ani vzadu, ani uvnitř. Vyrábíme jen pár kusů, ale pořádně.</p>
+      <p class="akce"><a class="tlacitko" href="#poptavka">Chci kuchyň nebo postel</a> <a class="odkaz" href="#proc">Proč celé dřevo ↓</a></p>
+    </div>
+    <figure class="hero-foto">
+      {{ img('loznice-tram.jpg', 'Ložnice s postelí z masivních trámů ze starého dřeva a nočním stolkem', sizes='(min-width: 60rem) 46rem, 100vw') }}
+      <figcaption>Postel z trámů ze starého dřeva</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="sekce proc" id="proc">
+  <div class="wrap">
+    <p class="cislo">1 · Řez</p>
+    <h2>Rozdíl uvidíte na hraně desky.</h2>
+    <p class="perex">Většina kuchyní se dnes vyrábí z lisovaných třísek polepených fólií. Skříň z ní vypadá hezky zepředu. Podívejte se, jak vypadá zboku.</p>
+    <div class="rezy">
+      <figure>
+        {{ img('rez-drevotriska.jpg', 'Řez deskou z dřevotřísky: drobné lisované třísky pod bílým povrchem', sizes='(min-width: 50rem) 32rem, 100vw') }}
+        <figcaption><b>Dřevotříska</b> – lisované piliny a lepidlo pod tenkou vrstvou povrchu.</figcaption>
+      </figure>
+      <figure>
+        {{ img('rez-dub.jpg', 'Řez deskou z masivního dubu s viditelnou kresbou dřeva', sizes='(min-width: 50rem) 32rem, 100vw') }}
+        <figcaption><b>Masivní dub</b> – dřevo celé skrz naskrz, s kresbou, kterou žádná fólie nenapodobí.</figcaption>
+      </figure>
+    </div>
+    <p class="perex">Proto děláme celodřevěné skříně: <b>boky i záda</b> jsou z masivu, nejen dvířka. Říkáme tomu zdravý nábytek. Pro lidi, kteří chtějí vědět, z čeho jejich děti žijí.</p>
+  </div>
+</section>
+
+<section class="sekce kuchyne" id="kuchyne">
+  <div class="wrap">
+    <p class="cislo">2 · Kuchyně</p>
+    <div class="dvesl">
+      <div>
+        <h2>Kuchyň celá ze dřeva.</h2>
+        <p>Kuchyně vyrábíme celý život, od jednoduchých po náročné. Tahle je jiná: korpusy, boky i záda skříní z masivního dřeva, ne z desek.</p>
+        <p>Děláme je na zakázku, podle Vaší místnosti. Vyrobíme jich málo, aby každá dostala čas a péči.</p>
+      </div>
+      <ul class="body" role="list">
+        <li><b>Boky i záda z masivu</b><span>Nic se nelepí z třísek, nic nezůstane odkryté.</span></li>
+        <li><b>Na míru</b><span>Podle Vaší kuchyně, ne podle katalogu.</span></li>
+        <li><b>Málo kusů</b><span>Raději dvě kuchyně pořádně než dvacet narychlo.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sekce postele" id="postele">
+  <div class="wrap">
+    <p class="cislo">3 · Postele</p>
+    <h2>Dva modely postelí z plného dřeva.</h2>
+    <p class="perex">Smrk a dub, bez kompromisů. Postele vyrábíme v různých rozměrech, napište nám, jaký potřebujete.</p>
+
+    <article class="model">
+      <div class="model-foto">
+        {{ img('tram-celo.jpg', 'Čelo postele z masivních trámů s přírodní kresbou dřeva', sizes='(min-width: 60rem) 30rem, 100vw') }}
+        {{ img('tram-lamely.jpg', 'Postel z trámů, pohled na rošt a čelo', sizes='(min-width: 60rem) 30rem, 100vw') }}
+      </div>
+      <div class="model-text">
+        <h3>Postel z trámů</h3>
+        <p>Dřevo na ni pochází ze starých domů a stodol. Některé trámy jsou staré i stovky let. Každý kus má jinou kresbu, praskliny a zabarvení, takže žádné dvě postele nejsou stejné.</p>
+        <p class="drobne">Silná čela, masivní nohy, rošt z lamel. Různé rozměry.</p>
+      </div>
+    </article>
+
+    <article class="model obracene">
+      <div class="model-foto">
+        {{ img('dub-postel.jpg', 'Dubová postel s masivním čelem', sizes='(min-width: 60rem) 30rem, 100vw') }}
+        {{ img('dub-bok.jpg', 'Dubová postel z boku, detail hrany a nohy', sizes='(min-width: 60rem) 30rem, 100vw') }}
+      </div>
+      <div class="model-text">
+        <h3>Postel z masivního dřeva</h3>
+        <p>Čistý tvar bez zbytečných ozdob, z dubu nebo smrku. Pro ložnici, která má být klidná. Dřevo se dá kdykoliv přebrousit a naolejovat, takže postel s Vámi zestárne, ne zastará.</p>
+        <p class="drobne">Různé rozměry podle matrace a místnosti.</p>
+      </div>
+    </article>
+
+    <div class="pas">
+      {{ img('tram-noha.jpg', 'Detail nohy a hrany postele z trámu s letokruhy', sizes='(min-width: 50rem) 22rem, 50vw') }}
+      {{ img('dub-celo.jpg', 'Detail čela dubové postele', sizes='(min-width: 50rem) 22rem, 50vw') }}
+      {{ img('tram-nocni-stolek.jpg', 'Postel z trámů s nočním stolkem', sizes='(min-width: 50rem) 22rem, 50vw') }}
+    </div>
+  </div>
+</section>
+
+<section class="sekce pribeh" id="pribeh">
+  <div class="wrap uzky">
+    <p class="cislo">4 · Příběh</p>
+    <h2>Méně kusů, víc péče.</h2>
+    <p>Truhlařinu děláme celý život. Dřív to byl široký sortiment a několik zaměstnanců. Dnes zůstávají dva produkty, kuchyně a postele, a malá dílna, kde se každý kus vyrábí se vší pozorností.</p>
+    <p>Neznamená to rychlé jednání o ceně a tisíc variant. Znamená to dřevo, které se vybere, vyschne a zpracuje. A nábytek, který vydrží generace.</p>
+  </div>
+</section>
+
+<section class="sekce poptavka" id="poptavka">
+  <div class="wrap dvesl">
+    <div>
+      <p class="cislo">5 · Poptávka</p>
+      <h2>Napište, co potřebujete.</h2>
+      <p>Stačí pár vět: kuchyň, nebo postel, jaký rozměr. Ozveme se Vám a nic se nemusí hned rozhodovat.</p>
+      <p class="kontakt-r">HORYNA, Hronovická 498, 530 02 Pardubice<br><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+{% endblock %}

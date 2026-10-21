@@ -1,0 +1,51 @@
+{
+  "slug": "horyna-drevo",
+  "nazev": "HORYNA – nábytek z masivu",
+  "url": "https://webhunter-navrhy.github.io/horyna-drevo/",
+  "base": "/horyna-drevo/",
+  "lang": "cs",
+  "popis": "Celodřevěné kuchyně a postele z masivu na zakázku. Truhlářství Horyna, Pardubice: poctivé dřevo bez dřevotřísky.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "loznice-tram.jpg",
+  "logo": "logo.png",
+  "theme_color": "#F5EFE3",
+  "typ": "LocalBusiness",
+  "ico": "",
+  "kontakt": {
+    "email": "info@horyna.cz",
+    "telefon": "",
+    "adresa": {
+      "ulice": "Hronovická 498",
+      "psc": "530 02",
+      "mesto": "Pardubice",
+      "zeme": "CZ"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Poptávka z webu HORYNA"
+  },
+  "nav": [
+    {
+      "text": "Proč celé dřevo",
+      "href": "#proc"
+    },
+    {
+      "text": "Kuchyně",
+      "href": "#kuchyne"
+    },
+    {
+      "text": "Postele",
+      "href": "#postele"
+    },
+    {
+      "text": "Poptávka",
+      "href": "#poptavka"
+    }
+  ]
+}
