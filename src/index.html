@@ -13,7 +13,7 @@
   <div class="wrap hero-grid">
     <div class="hero-text">
       <p class="stitek">Truhlářství Horyna · Pardubice</p>
-      <h1>Nábytek z <em>celého dřeva</em> pro domov, ve kterém rostou děti.</h1>
+      <h1>Nábytek z celého dřeva pro domov, ve kterém rostou děti.</h1>
       <p class="uvod">Kuchyně a postele z masivu. Žádná dřevotříska, ani vzadu, ani uvnitř. Vyrábíme jen pár kusů, ale pořádně.</p>
       <p class="akce"><a class="tlacitko" href="#poptavka">Chci kuchyň nebo postel</a> <a class="odkaz" href="#proc">Proč celé dřevo ↓</a></p>
     </div>
@@ -26,7 +26,7 @@
 
 <section class="sekce proc" id="proc">
   <div class="wrap">
-    <p class="cislo">1 · Řez</p>
+    <p class="cislo">Řez</p>
     <h2>Rozdíl uvidíte na hraně desky.</h2>
     <p class="perex">Většina kuchyní se dnes vyrábí z lisovaných třísek polepených fólií. Skříň z ní vypadá hezky zepředu. Podívejte se, jak vypadá zboku.</p>
     <div class="rezy">
@@ -45,7 +45,7 @@
 
 <section class="sekce kuchyne" id="kuchyne">
   <div class="wrap">
-    <p class="cislo">2 · Kuchyně</p>
+    <p class="cislo">Kuchyně</p>
     <div class="dvesl">
       <div>
         <h2>Kuchyň celá ze dřeva.</h2>
@@ -58,12 +58,32 @@
         <li><b>Málo kusů</b><span>Raději dvě kuchyně pořádně než dvacet narychlo.</span></li>
       </ul>
     </div>
+    <div class="schema">
+        <svg class="korpus" viewBox="0 0 420 360" role="img" aria-label="Schéma korpusu skříňky: bok z masivu, záda z masivu, dvířka" focusable="false">
+          <g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+            <path d="M70 70 L290 70 L350 30 L130 30 Z"/>
+            <path d="M70 70 L290 70 L290 310 L70 310 Z"/>
+            <path d="M290 70 L350 30 L350 270 L290 310"/>
+            <path d="M130 30 L130 270 L70 310" stroke-dasharray="6 6"/>
+            <path d="M130 270 L350 270" stroke-dasharray="6 6"/>
+            <path d="M92 90 L268 90 L268 290 L92 290 Z" stroke-width="1.2"/>
+            <circle cx="252" cy="190" r="5"/>
+            <path d="M160 130 q30 -14 60 0 M160 160 q30 -14 60 0 M160 220 q30 -14 60 0" stroke-width="1" opacity=".6"/>
+          </g>
+          <g fill="currentColor" font-size="14" font-family="Figtree, sans-serif">
+            <text x="365" y="150">bok z masivu</text>
+            <text x="365" y="172">(ne z třísek)</text>
+            <text x="150" y="22">záda z masivu</text>
+            <text x="70" y="338">dvířka z masivního dřeva</text>
+          </g>
+        </svg>
+    </div>
   </div>
 </section>
 
 <section class="sekce postele" id="postele">
   <div class="wrap">
-    <p class="cislo">3 · Postele</p>
+    <p class="cislo">Postele</p>
     <h2>Dva modely postelí z plného dřeva.</h2>
     <p class="perex">Smrk a dub, bez kompromisů. Postele vyrábíme v různých rozměrech, napište nám, jaký potřebujete.</p>
 
@@ -91,27 +111,27 @@
       </div>
     </article>
 
-    <div class="pas">
-      {{ img('tram-noha.jpg', 'Detail nohy a hrany postele z trámu s letokruhy', sizes='(min-width: 50rem) 22rem, 50vw') }}
-      {{ img('dub-celo.jpg', 'Detail čela dubové postele', sizes='(min-width: 50rem) 22rem, 50vw') }}
-      {{ img('tram-nocni-stolek.jpg', 'Postel z trámů s nočním stolkem', sizes='(min-width: 50rem) 22rem, 50vw') }}
-    </div>
   </div>
 </section>
 
 <section class="sekce pribeh" id="pribeh">
-  <div class="wrap uzky">
-    <p class="cislo">4 · Příběh</p>
+  <div class="wrap pribeh-grid">
+    <div class="pribeh-text">
+    <p class="cislo">Příběh</p>
     <h2>Méně kusů, víc péče.</h2>
     <p>Truhlařinu děláme celý život. Dřív to byl široký sortiment a několik zaměstnanců. Dnes zůstávají dva produkty, kuchyně a postele, a malá dílna, kde se každý kus vyrábí se vší pozorností.</p>
     <p>Neznamená to rychlé jednání o ceně a tisíc variant. Znamená to dřevo, které se vybere, vyschne a zpracuje. A nábytek, který vydrží generace.</p>
+    </div>
+    <figure class="pribeh-foto">
+      {{ img('tram-noha.jpg', 'Detail nohy a hrany postele z trámu s letokruhy a prasklinami starého dřeva', sizes='(min-width: 56rem) 34rem, 100vw') }}
+    </figure>
   </div>
 </section>
 
 <section class="sekce poptavka" id="poptavka">
   <div class="wrap dvesl">
     <div>
-      <p class="cislo">5 · Poptávka</p>
+      <p class="cislo">Poptávka</p>
       <h2>Napište, co potřebujete.</h2>
       <p>Stačí pár vět: kuchyň, nebo postel, jaký rozměr. Ozveme se Vám a nic se nemusí hned rozhodovat.</p>
       <p class="kontakt-r">HORYNA, Hronovická 498, 530 02 Pardubice<br><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>

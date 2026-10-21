@@ -1,0 +1,17 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Hero na PC (1440): postel je malá fotka v rámečku vpravo, kolem jsou prázdné kruhy a pod CTA zbývá asi 100 px prázdného béžového pruhu. Je to stejná slabina, kvůli které neprošla Rezidence Metelka v1. Oprava: fotku postele z trámů roztáhnout přes celou pravou polovinu až k okraji obrazovky na celou výšku hero, letokruhy dát za ni jako jemné pozadí. V h1 zrušit ochrovou kurzívu u „celého dřeva“, to je zakázaný vzor. Nadpis nechat jedním řezem a zvýraznit jen barvou nebo nijak.",
+    "Štítky sekcí „1 · ŘEZ“, „2 · KUCHYNĚ“, „3 · POSTELE“, „4 · PŘÍBĚH“, „5 · POPTÁVKA“ jsou číslování sekcí (zakázaný vzor) a spolu s kurzívou dávají dva šablonové prvky. Čísla odstranit, kroužek-letokruh nechat jen jako drobný ornament u nadpisu. Tmavý blok Kuchyně je jen text a tři řádky výhod a působí prázdně, protože kuchyň klient k focení nemá. Doplnit vlevo nebo vpravo jednoduchou ochrovou perokresbu korpusu skříňky s popisky „bok z masivu“, „záda z masivu“, „dvířka“. Je to pravdivé, nesouvisí s fotkami a navazuje na sekci Řez.",
+    "Příběh (PC buňky 6–7): úzký centrovaný sloupec textu na plné béžové ploše, bez fotky, se zhruba 150 px prázdna pod textem, takže před formulářem stojí plochá textová stěna. Oprava: přidat vedle textu velký výřez detailu trámu nebo prasklin starého dřeva z klientových fotek (cell 6, první fotka), zarovnat text vlevo vedle něj a zmenšit spodní padding. Řádek tří fotek nad Příběhem buď zrušit, nebo ho udělat jako galerii s popisky, protože teď opakuje záběry z modelů. Na mobilu zvětšit dotykové cíle: „Poptávka“ v hlavičce (37 px) a „Proč celé dřevo ↓“ (27 px) dát na ≥ 44 px."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Brand sedí: logo HORYNA s ochrovým čtvercem je vlevo v hlavičce, paleta je černá, ochra a teplá béžová přesně z loga.",
+    "Sekce „Rozdíl uvidíte na hraně desky“ srovnává dřevotřísku a masivní dub. Je to konkrétní a prodejní nápad, který vysvětluje hlavní argument klienta (zdravý nábytek pro maminky) lépe než jakýkoli slogan.",
+    "Texty vycházejí z briefu bez vymyšlených čísel, recenzí a ocenění. Tón je osobní („Raději dvě kuchyně pořádně než dvacet narychlo“), příběh místo katalogu, jak klient chtěl.",
+    "Fotky postelí jsou klientovy, nejsou roztažené a mřížka je dobře ořezává. Mobil nepřetéká, pořadí obsahu je logické a formulář je jasný a úplný."
+  ],
+  "verdikt": "Poctivý obsahový návrh se silným nápadem v sekci srovnání hran a se správným brandem, ale hero s malou fotkou v rámečku, číslované štítky s kurzívou a textové bloky Kuchyně a Příběh bez obrazu z něj dělají opatrný béžový editorial, jaký Rafael už odmítl. Opravit tři body výše a pak poslat.",
+  "_hash": "52abcfde40298eb8197f2ad40b81e0ae03c2acb5"
+}

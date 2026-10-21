@@ -26,7 +26,7 @@ a { color: inherit; }
 .hlavicka .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: .6rem; }
 .logo img { height: 36px; width: auto; }
 .hlavicka nav { display: flex; gap: 1.4rem; font-size: var(--step--1); font-weight: 500; }
-.hlavicka nav a { text-decoration: none; padding: .4rem 0; border-bottom: 2px solid transparent; }
+.hlavicka nav a { text-decoration: none; padding: .75rem 0; min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; }
 .hlavicka nav a:hover { border-color: var(--accent); }
 @media (max-width: 44rem) { .hlavicka nav a:not(:last-child) { display: none; } }
 .hero { position: relative; overflow: hidden; padding-block: clamp(2.5rem, 6vw, 5.5rem); }
@@ -35,7 +35,6 @@ a { color: inherit; }
 @media (min-width: 60rem) { .hero-grid { grid-template-columns: 1.05fr 1fr; gap: 4rem; } }
 .stitek { font-size: var(--step--1); letter-spacing: .12em; text-transform: uppercase; color: var(--accent-dark); font-weight: 600; }
 .hero h1 { font-size: var(--step-4); margin-bottom: 1.2rem; }
-.hero h1 em, h2 em { font-style: italic; color: var(--accent-dark); }
 .uvod { font-size: var(--step-1); max-width: 34rem; color: var(--muted); }
 .akce { display: flex; flex-wrap: wrap; gap: 1.2rem 1.8rem; align-items: center; margin-top: 1.6rem; }
 .tlacitko, button[type=submit] { display: inline-block; background: var(--dark); color: var(--bg); padding: .95rem 1.6rem; border: 0; border-radius: 2px; text-decoration: none; font-weight: 600; letter-spacing: .01em; transition: background .2s; }
@@ -55,7 +54,7 @@ h2 { font-size: var(--step-3); margin-bottom: 1.2rem; max-width: 22ch; }
 .rezy img { width: 100%; aspect-ratio: 20/9; object-fit: cover; }
 .rezy figure { margin: 0; } .rezy figure:last-child img { outline: 3px solid var(--accent); outline-offset: 4px; }
 .kuchyne { background: var(--dark); color: var(--bg); border-top: 0; }
-.kuchyne .cislo, .kuchyne h2 em { color: var(--accent); }
+.kuchyne .cislo { color: var(--accent); }
 .kuchyne .cislo::before { box-shadow: 0 0 0 4px var(--dark), 0 0 0 5px var(--accent); }
 .dvesl { display: grid; gap: 2.5rem; }
 @media (min-width: 56rem) { .dvesl { grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; } }
@@ -85,3 +84,23 @@ h2 { font-size: var(--step-3); margin-bottom: 1.2rem; max-width: 22ch; }
 .rez, [data-r] { transition: opacity .8s, transform .8s; }
 .js [data-r] { opacity: 0; transform: translateY(18px); } .js [data-r].v { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .js [data-r] { opacity: 1; transform: none; transition: none; } .kruhy { transform: none !important; } html { scroll-behavior: auto; } }
+
+.akce .odkaz { display: inline-flex; align-items: center; min-height: 44px; }
+.kruhy { right: auto; left: -18rem; top: -10rem; }
+.hero-foto img { aspect-ratio: 4/3; }
+@media (min-width: 60rem) {
+  .hero { padding-block: 0; min-height: min(46rem, 88vh); display: flex; }
+  .hero-grid { grid-template-columns: 1fr; width: 100%; margin: 0; max-width: none; padding-left: max(1.25rem, calc((100% - 72rem) / 2)); align-items: stretch; }
+  .hero-text { width: 46%; padding-block: 5rem; align-self: center; }
+  .hero-foto { position: absolute; top: 0; right: 0; bottom: 0; width: 50%; }
+  .hero-foto img { height: 100%; aspect-ratio: auto; border-radius: 0; }
+  .hero-foto figcaption { position: absolute; left: 1rem; bottom: 1rem; margin: 0; background: rgba(26,20,14,.72); color: #f5efe3; padding: .35rem .7rem; }
+}
+@media (max-width: 59.99rem) { .hero-foto { margin-inline: -1.25rem; } .hero-foto img { border-radius: 0; } }
+.schema { margin-top: 3rem; color: var(--accent); max-width: 34rem; }
+.schema svg { width: 100%; height: auto; }
+@media (min-width: 56rem) { .kuchyne .wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; } .kuchyne .wrap .dvesl { display: contents; } .schema { margin-top: 0; grid-column: 2; grid-row: 1 / span 2; } }
+.pribeh { padding-bottom: clamp(2.5rem, 5vw, 4rem); }
+.pribeh-grid { display: grid; gap: 2rem; align-items: center; }
+@media (min-width: 56rem) { .pribeh-grid { grid-template-columns: 1fr 1fr; gap: 4rem; } }
+.pribeh-foto { margin: 0; } .pribeh-foto img { width: 100%; aspect-ratio: 4/5; object-fit: cover; border-radius: 2px; }
