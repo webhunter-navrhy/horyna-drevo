@@ -1,19 +1,18 @@
 {
   "znamka": 8,
   "slabiny": [
-    "Kuchyně (PC buňka 3, mobil buňka 4): popisek perokresby vpravo je useknutý okrajem SVG („bok z ma… (ne z tříš…“). Zvětšit viewBox nebo dát `overflow: visible`, případně popisek zkrátit na „bok z masivu“ a dát ho vlevo od korpusu. Na PC je navíc mezi štítkem KUCHYNĚ a h2 asi 90 px prázdné tmavé plochy a kresba visí výš než text. Kresbu zarovnat svisle k h2 a seznamu výhod a zmenšit horní padding.",
-    "Postele (PC buňky 4–5): fotky obou modelů jsou malé dvojice (asi 150–230 px široké) vedle velkých prázdných ploch, takže postel z masivu skoro zaniká. U každého modelu dát jednu fotku velkou (asi polovina šířky obsahu, se zvětšením nejvýš 1,3×) a druhou jako menší detail pod ni nebo vedle ní.",
-    "Mobil (kontakt nad formulářem, buňka 8, a hlavička): odkaz info@horyna.cz má dotykovou plochu jen 16 px a logo 36 px. Odkazu přidat padding nebo ho udělat jako tlačítko na ≥ 44 px a zvětšit i klikací plochu loga."
+    "Postele (PC buňky 4–5) jsou opravené jen napůl. Velká fotka Postele z trámů má asi 420 px a u Postele z masivního dřeva jen asi 300 px, tedy třetinu až čtvrtinu šířky obsahu. Vedlejší detail má kolem 150 px a postel z masivu pořád působí jako drobná vedle textu. Hlavní fotku každého modelu je potřeba roztáhnout na zhruba polovinu šířky obsahu (asi 600 px, zvětšení nejvýš 1,3×). Detail patří pod ni jako užší pruh, ne jako miniatura vedle ní.",
+    "Kuchyně (PC buňka 3): perokresba korpusu pořád začíná nad h2. Horní hrana kresby je asi o 70 px výš než nadpis a spodek končí nad seznamem výhod, takže pravý sloupec visí nahoře a pod ním je prázdná tmavá plocha. Kresbu je potřeba zarovnat svisle na střed textového sloupce (align-self: center) a zvětšit asi na 1,2×, aby vyplnila výšku od h2 po konec seznamu.",
+    "Kuchyně a Postele na PC (buňky 3–5): odstavce a popisy modelů mají menší písmo (asi 13–14 px) než text v sekcích Řez a Příběh (asi 17 px). Stránka tak působí nejednotně a hlavní produkty se čtou hůř. Odstavcům v kuchyni a u obou postelí je potřeba dát stejnou velikost a řádkování jako v sekci Řez, malé písmo nechat jen popiskům pod fotkami."
   ],
-  "zavazne": [
-    "Sekce Kuchyně, perokresba korpusu (PC i mobil): popisek „bok z masivu (ne z třísek)“ je useknutý okrajem obrázku a čte se jako „bok z ma (ne z tříš“. Je to rozbitý text na viditelném místě a před odesláním se musí opravit (viewBox, overflow nebo kratší popisek)."
-  ],
+  "zavazne": [],
   "silne": [
-    "Všechny výtky z minulého kola jsou opravené. Hero má fotku postele z trámů přes celou pravou polovinu až k okraji, letokruhy jsou jen v pozadí a h1 je jedním řezem bez kurzívy. Štítky sekcí už nemají čísla. Příběh má velký detail trámu a text vlevo. Řádek opakovaných fotek zmizel.",
-    "Silný oborový koncept „Rozdíl uvidíte na hraně desky“: srovnání hrany dřevotřísky a masivu je přesvědčivé, pravdivé a navazuje na něj perokresba korpusu v Kuchyni.",
-    "Brand klienta drží: logo HORYNA s ochrovým čtvercem je vlevo v hlavičce, paleta je černá s ochrou, fotky jsou jen klientovy a s malými starými fotkami web pracuje rozumně (velký ořez v hero i v Příběhu).",
-    "Jasná konverze: v hero je CTA „Chci kuchyň nebo postel“, poptávkový formulář je jednoduchý, adresa a e-mail jsou nad ním. Nic nepřetéká na žádné ze 6 šířek."
+    "Závažná vada z minulého kola je opravená. Popisek perokresby „bok z masivu (ne z třísek)“ je na PC i na mobilu celý a čitelný.",
+    "Na mobilu je logo v hlavičce větší a QA už nehlásí malý dotykový cíl u e-mailu. Zbývá jen skip-link, a ten je v pořádku.",
+    "Koncept letokruhů a řezu deskou (srovnání dřevotříska × masivní dub) vychází přímo z oboru a z hlavního argumentu klienta, že celodřevěné skříně jsou zdravější. Je vidět v hero, v kroužkových štítcích sekcí i v perokresbě.",
+    "Brand sedí: logo HORYNA vlevo, černá a ochra z loga, jen klientovy fotky. Tmavá sekce Kuchyně má oporu v černé barvě brandu a nepůsobí jako generický luxus.",
+    "Nic není vymyšlené. Texty se drží briefu, nejsou tu čísla ani recenze, formulář je jednoduchý a adresa i e-mail jsou u poptávky."
   ],
-  "verdikt": "Opravené kolo vyřešilo hero, číslování, prázdnou Kuchyni i Příběh. Web má koncept z oboru a drží brand klienta. Odeslat až po opravě useknutého popisku v perokresbě Kuchyně.",
-  "_hash": "df6dafebabaf7a51a8678b4f9786d81d8a7d7047"
+  "verdikt": "Všechny výtky z minulého kola jsou opravené, fotky postelí jen zčásti, a nová závažná vada se neobjevila. Web je klidný a řemeslný, má koncept z oboru a dá se poslat, zvětšit hlavní fotky postelí ale stojí za to.",
+  "_hash": "5ab42e4d0ac8ae0d14befcab1f6dccbf945a59ee"
 }

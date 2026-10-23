@@ -114,3 +114,14 @@ h2 { font-size: var(--step-3); margin-bottom: 1.2rem; max-width: 22ch; }
 .skip:focus { min-height: 44px; }
 @media (min-width: 56rem) { .kuchyne .wrap { align-items: center; row-gap: 0; padding-block: 0; } .kuchyne .cislo { margin-bottom: .6rem; } }
 .kuchyne { padding-block: clamp(2.5rem, 5vw, 4.5rem); }
+
+.detaily { display: grid; grid-template-columns: repeat(3, 1fr); gap: .8rem; margin-top: 2.5rem; }
+.detaily figure, .galerie figure { margin: 0; }
+.detaily img { width: 100%; aspect-ratio: 3/4; object-fit: cover; border-radius: 2px; }
+.detaily figcaption { font-size: var(--step--1, .9rem); margin-top: .4rem; }
+.galerie-h { margin-top: 3.5rem; margin-bottom: 1rem; font-size: var(--step-3); }
+.galerie { display: grid; gap: .8rem; grid-template-columns: 1fr 1fr; }
+.galerie .siroka { grid-column: 1 / -1; }
+.galerie img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 2px; }
+@media (min-width: 56rem) { .galerie .siroka { grid-column: span 2; } .galerie { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 56rem) { .kuchyne .wrap { display: block; } .kuchyne .wrap .dvesl { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; } }

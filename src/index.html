@@ -1,5 +1,5 @@
 {% extends "_base.html" %}
-{% set titulek = 'Celodřevěné kuchyně a postele z masivu na zakázku – HORYNA, Pardubice' %}
+{% set titulek = 'Celodřevěné kuchyně z masivu na zakázku – HORYNA, Pardubice' %}
 {% set cesta = '' %}
 {% block obsah %}
 <section class="hero">
@@ -13,13 +13,13 @@
   <div class="wrap hero-grid">
     <div class="hero-text">
       <p class="stitek">Truhlářství Horyna · Pardubice</p>
-      <h1>Nábytek z celého dřeva pro domov, ve kterém rostou děti.</h1>
-      <p class="uvod">Kuchyně a postele z masivu. Žádná dřevotříska, ani vzadu, ani uvnitř. Vyrábíme jen pár kusů, ale pořádně.</p>
-      <p class="akce"><a class="tlacitko" href="#poptavka">Chci kuchyň nebo postel</a> <a class="odkaz" href="#proc">Proč celé dřevo ↓</a></p>
+      <h1>Kuchyně z celého dřeva pro domov, ve kterém rostou děti.</h1>
+      <p class="uvod">Kuchyně z masivu na míru. Žádná dřevotříska, ani vzadu, ani uvnitř. K nim vyrábíme i postele z plného dřeva.</p>
+      <p class="akce"><a class="tlacitko" href="#poptavka">Chci kuchyň z masivu</a> <a class="odkaz" href="#proc">Proč celé dřevo ↓</a></p>
     </div>
     <figure class="hero-foto">
-      {{ img('loznice-tram.jpg', 'Ložnice s postelí z masivních trámů ze starého dřeva a nočním stolkem', sizes='(min-width: 60rem) 46rem, 100vw') }}
-      <figcaption>Postel z trámů ze starého dřeva</figcaption>
+      {{ img('kuchyn-zelena.jpg', 'Zelená celodřevěná kuchyně s ostrůvkem pod trámovým stropem', sizes='(min-width: 60rem) 46rem, 100vw') }}
+      <figcaption>Kuchyň s ostrůvkem, masiv lakovaný do mátové</figcaption>
     </figure>
   </div>
 </section>
@@ -39,7 +39,7 @@
         <figcaption><b>Masivní dub</b> – dřevo celé skrz naskrz, s kresbou, kterou žádná fólie nenapodobí.</figcaption>
       </figure>
     </div>
-    <p class="perex">Proto děláme celodřevěné skříně: <b>boky i záda</b> jsou z masivu, nejen dvířka. Říkáme tomu zdravý nábytek. Pro lidi, kteří chtějí vědět, z čeho jejich děti žijí.</p>
+    <p class="perex">Proto děláme celodřevěné kuchyně: <b>boky i záda</b> jsou z masivu, nejen dvířka. Říkáme tomu zdravý nábytek. Pro lidi, kteří chtějí vědět, z čeho jejich děti žijí.</p>
   </div>
 </section>
 
@@ -49,7 +49,7 @@
     <div class="dvesl">
       <div>
         <h2>Kuchyň celá ze dřeva.</h2>
-        <p>Kuchyně vyrábíme celý život, od jednoduchých po náročné. Tahle je jiná: korpusy, boky i záda skříní z masivního dřeva, ne z desek.</p>
+        <p>Kuchyně vyrábíme celý život, od jednoduchých po náročné. Tyhle jsou jiné: korpusy, boky i záda skříní z masivního dřeva, ne z desek.</p>
         <p>Děláme je na zakázku, podle Vaší místnosti. Vyrobíme jich málo, aby každá dostala čas a péči.</p>
       </div>
       <ul class="body" role="list">
@@ -58,25 +58,18 @@
         <li><b>Málo kusů</b><span>Raději dvě kuchyně pořádně než dvacet narychlo.</span></li>
       </ul>
     </div>
-    <div class="schema">
-        <svg class="korpus" viewBox="0 0 500 360" role="img" aria-label="Schéma korpusu skříňky: bok z masivu, záda z masivu, dvířka" focusable="false">
-          <g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
-            <path d="M70 70 L290 70 L350 30 L130 30 Z"/>
-            <path d="M70 70 L290 70 L290 310 L70 310 Z"/>
-            <path d="M290 70 L350 30 L350 270 L290 310"/>
-            <path d="M130 30 L130 270 L70 310" stroke-dasharray="6 6"/>
-            <path d="M130 270 L350 270" stroke-dasharray="6 6"/>
-            <path d="M92 90 L268 90 L268 290 L92 290 Z" stroke-width="1.2"/>
-            <circle cx="252" cy="190" r="5"/>
-            <path d="M160 130 q30 -14 60 0 M160 160 q30 -14 60 0 M160 220 q30 -14 60 0" stroke-width="1" opacity=".6"/>
-          </g>
-          <g fill="currentColor" font-size="14" font-family="Figtree, sans-serif">
-            <text x="365" y="150">bok z masivu</text>
-            <text x="365" y="172">(ne z třísek)</text>
-            <text x="150" y="22">záda z masivu</text>
-            <text x="70" y="338">dvířka z masivního dřeva</text>
-          </g>
-        </svg>
+    <div class="detaily">
+      <figure>{{ img('zasuvka-cep.jpg', 'Dubová zásuvka na rybinové spoje s masivními bočnicemi', sizes='(min-width: 50rem) 20rem, 50vw') }}<figcaption>Zásuvka na čepy, bočnice z masivu</figcaption></figure>
+      <figure>{{ img('dvirka-dub.jpg', 'Dubová dvířka s profilovaným rámem naskládaná na sobě', sizes='(min-width: 50rem) 20rem, 50vw') }}<figcaption>Dvířka z dubu</figcaption></figure>
+      <figure>{{ img('deska-hrana.jpg', 'Hrana dubové desky se zřetelnou kresbou dřeva', sizes='(min-width: 50rem) 20rem, 50vw') }}<figcaption>Hrana desky z masivního dubu</figcaption></figure>
+    </div>
+    <h3 class="galerie-h">Kuchyně, které jsme udělali</h3>
+    <div class="galerie">
+      <figure class="siroka">{{ img('kuchyn-krem-ostrov.jpg', 'Krémová kuchyň s ostrůvkem a podsvíceným pultem pod trámovým stropem', sizes='(min-width: 56rem) 40rem, 100vw') }}</figure>
+      <figure>{{ img('kuchyn-krem-drez.jpg', 'Krémová kuchyň, detail dřezu a masivních dvířek s prosklenými skříňkami', sizes='(min-width: 56rem) 20rem, 50vw') }}</figure>
+      <figure>{{ img('kuchyn-dub-okno.jpg', 'Dubová kuchyň s varnou deskou a oknem', sizes='(min-width: 56rem) 20rem, 50vw') }}</figure>
+      <figure class="siroka">{{ img('kuchyn-zelena-ostrov.jpg', 'Mátově zelená kuchyň s dřevěným ostrůvkem a vestavěnými spotřebiči', sizes='(min-width: 56rem) 40rem, 100vw') }}</figure>
+      <figure class="siroka">{{ img('kuchyn-dub.jpg', 'Kuchyň z masivního dubu s vestavěnou troubou a mikrovlnkou', sizes='(min-width: 56rem) 40rem, 100vw') }}</figure>
     </div>
   </div>
 </section>

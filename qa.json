@@ -3,7 +3,7 @@
   "ok": true,
   "chyby": [],
   "varovani": [
-    "Dotykové cíle <40 px na mobilu: 3× (např. a.skip \"Přeskočit na obsah\" 135×27; a.logo \"\" 143×36; a \"info@horyna.cz\" 94×16)"
+    "Dotykové cíle <40 px na mobilu: 1× (např. a.skip \"Přeskočit na obsah\" 135×27)"
   ],
   "metriky": {
     "sirky": {
@@ -58,7 +58,7 @@
       "canonical": true,
       "viewport": true
     },
-    "maly_dotykovy_cil": 3,
+    "maly_dotykovy_cil": 1,
     "font_nadpis": "Newsreader",
     "font_text": "Figtree",
     "podstranky": {
