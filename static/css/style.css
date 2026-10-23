@@ -125,3 +125,4 @@ h2 { font-size: var(--step-3); margin-bottom: 1.2rem; max-width: 22ch; }
 .galerie img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 2px; }
 @media (min-width: 56rem) { .galerie .siroka { grid-column: span 2; } .galerie { grid-template-columns: repeat(4, 1fr); } }
 @media (min-width: 56rem) { .kuchyne .wrap { display: block; } .kuchyne .wrap .dvesl { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; } }
+@media (min-width: 56rem) { .galerie { grid-auto-rows: 17rem; } .galerie figure { display: flex; } .galerie img { height: 100%; aspect-ratio: auto; } .galerie .siroka:last-child { grid-column: 1 / -1; } }

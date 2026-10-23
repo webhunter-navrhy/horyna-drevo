@@ -1,5 +1,5 @@
 {
-  "url": "https://webhunter-navrhy.github.io/horyna-drevo/",
+  "url": "https://webhunter-navrhy.github.io/horyna-drevo/?t=1792749381",
   "ok": true,
   "chyby": [],
   "varovani": [
@@ -32,21 +32,21 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 0.65,
+    "preneseno_PC_MB": 0.99,
     "nejvetsi_obrazek_PC": {
       "kB": 125,
       "url": "https://webhunter-navrhy.github.io/horyna-drevo/img/tram-lamely-640.webp"
     },
-    "snimku_PC": 6,
-    "preneseno_mobil_MB": 0.85,
+    "snimku_PC": 9,
+    "preneseno_mobil_MB": 1.36,
     "nejvetsi_obrazek_mobil": {
       "kB": 177,
       "url": "https://webhunter-navrhy.github.io/horyna-drevo/img/tram-lamely-750.webp"
     },
-    "snimku_mobil": 8,
+    "snimku_mobil": 9,
     "seo": {
-      "title": "Celodřevěné kuchyně a postele z masivu na zakázku – HORYNA, Pardubice",
-      "description": "Celodřevěné kuchyně a postele z masivu na zakázku. Truhlářství Horyna, Pardubice: poctivé dřevo bez ",
+      "title": "Celodřevěné kuchyně z masivu na zakázku – HORYNA, Pardubice",
+      "description": "Celodřevěné kuchyně z masivu na zakázku, k nim postele z plného dřeva. Truhlářství Horyna, Pardubice",
       "lang": "cs",
       "h1": 1,
       "jsonld": [
@@ -62,8 +62,8 @@
     "font_nadpis": "Newsreader",
     "font_text": "Figtree",
     "podstranky": {
-      "stranek": 1,
-      "obrazku": 17
+      "stranek": 2,
+      "obrazku": 35
     }
   }
 }
